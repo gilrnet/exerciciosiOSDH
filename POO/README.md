@@ -1,6 +1,6 @@
 # Programação Orientada a Objetos
 
-- Classes, Polymorphism and Overriding Functions
+`Classes, Polymorphism and Overriding Functions`
 
 ## **Exercício 1 - Funcionário**
 
