@@ -1,9 +1,9 @@
-# Programação Orientada a Objetos
+# Object Oriented Programming
 
 `Classes, Polymorphism and Overriding Functions`
 
-## **Exercício 1 - Funcionário**
+## **Exercise 1 - Employee**
 
-## **Exercício 2 - Veículo**
+## **Exercise 2 - Vehicle**
 
 ### Powered by: Gilvã Rocha, Igor Gavilon e Michel dos Santos
