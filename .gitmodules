@@ -1,3 +1,15 @@
 [submodule "ProtocolosPOOHerancaPolimorfismo/Apostas"]
 	path = ProtocolosPOOHerancaPolimorfismo/Apostas
 	url = https://github.com/gilrnet/exerciciosiOSDH.git
+[submodule "ProtocolosPOOHerancaPolimorfismo/Busca"]
+	path = ProtocolosPOOHerancaPolimorfismo/Busca
+	url = https://github.com/gilrnet/exerciciosiOSDH.git
+[submodule "ProtocolosPOOHerancaPolimorfismo/Calculadora"]
+	path = ProtocolosPOOHerancaPolimorfismo/Calculadora
+	url = https://github.com/gilrnet/exerciciosiOSDH.git
+[submodule "ProtocolosPOOHerancaPolimorfismo/Jornal"]
+	path = ProtocolosPOOHerancaPolimorfismo/Jornal
+	url = https://github.com/gilrnet/exerciciosiOSDH.git
+[submodule "ProtocolosPOOHerancaPolimorfismo/Locadora"]
+	path = ProtocolosPOOHerancaPolimorfismo/Locadora
+	url = https://github.com/gilrnet/exerciciosiOSDH.git
