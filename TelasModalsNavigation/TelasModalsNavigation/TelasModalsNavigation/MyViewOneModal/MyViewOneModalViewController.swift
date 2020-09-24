@@ -20,7 +20,7 @@ class MyViewOneModalViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "Teste"
+        //self.navigationItem.title = "Teste"
         // Do any additional setup after loading the view.
     }
     
