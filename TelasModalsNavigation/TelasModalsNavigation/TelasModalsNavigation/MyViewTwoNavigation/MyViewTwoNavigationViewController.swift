@@ -1,26 +1,26 @@
 //
-//  MyViewOneModalViewController.swift
+//  MyViewTwoNavigationViewController.swift
 //  TelasModalsNavigation
 //
-//  Created by Gilvã Rocha on 22/09/20.
+//  Created by Gilvã Rocha on 24/09/20.
 //
 
 import UIKit
 
-class MyViewOneModalViewController: UIViewController {
+class MyViewTwoNavigationViewController: UIViewController {
 
-    @IBAction func actionDownMyViewOneModal(_ sender: Any) {
+    @IBAction func actionDownMyViewTwoNavigation(_ sender: Any) {
         //if let viewControllerOneMain = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? ViewController {
             
             //Fecha a tela Navigation
-            dismiss(animated: true, completion: nil)
+            navigationController?.popViewController(animated: true)
         //}
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //self.navigationItem.title = "Teste"
+        title = "My View Two Navigation"
         // Do any additional setup after loading the view.
     }
 

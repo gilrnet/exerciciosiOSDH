@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7AA79E251D62C200607491 /* MyViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AA79D251D62C200607491 /* MyViewTwoViewController.swift */; };
+		0A7AA7A1251D62EA00607491 /* MyViewTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7AA7A0251D62EA00607491 /* MyViewTwo.storyboard */; };
+		0A7AA7A6251D66A000607491 /* MyViewTwoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AA7A5251D66A000607491 /* MyViewTwoModalViewController.swift */; };
+		0A7AA7AA251D66CD00607491 /* MyViewTwoModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7AA7A9251D66CD00607491 /* MyViewTwoModal.storyboard */; };
+		0A7AA7AD251D671300607491 /* MyViewTwoNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AA7AC251D671300607491 /* MyViewTwoNavigationViewController.swift */; };
+		0A7AA7B0251D673D00607491 /* MyViewTwoNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7AA7AF251D673D00607491 /* MyViewTwoNavigation.storyboard */; };
 		0AF707D6251AB49700C6BCB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF707D5251AB49700C6BCB2 /* AppDelegate.swift */; };
 		0AF707D8251AB49700C6BCB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF707D7251AB49700C6BCB2 /* SceneDelegate.swift */; };
 		0AF707DA251AB49700C6BCB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF707D9251AB49700C6BCB2 /* ViewController.swift */; };
@@ -22,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7AA79D251D62C200607491 /* MyViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoViewController.swift; sourceTree = "<group>"; };
+		0A7AA7A0251D62EA00607491 /* MyViewTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwo.storyboard; sourceTree = "<group>"; };
+		0A7AA7A5251D66A000607491 /* MyViewTwoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoModalViewController.swift; sourceTree = "<group>"; };
+		0A7AA7A9251D66CD00607491 /* MyViewTwoModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoModal.storyboard; sourceTree = "<group>"; };
+		0A7AA7AC251D671300607491 /* MyViewTwoNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoNavigationViewController.swift; sourceTree = "<group>"; };
+		0A7AA7AF251D673D00607491 /* MyViewTwoNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoNavigation.storyboard; sourceTree = "<group>"; };
 		0AF707D2251AB49700C6BCB2 /* TelasModalsNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelasModalsNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF707D5251AB49700C6BCB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AF707D7251AB49700C6BCB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A117640251D47E300B20F0B /* MyViewTwo */ = {
+			isa = PBXGroup;
+			children = (
+				0A7AA79D251D62C200607491 /* MyViewTwoViewController.swift */,
+				0A7AA7A0251D62EA00607491 /* MyViewTwo.storyboard */,
+			);
+			path = MyViewTwo;
+			sourceTree = "<group>";
+		};
+		0A7AA7A3251D662B00607491 /* MyViewTwoModal */ = {
+			isa = PBXGroup;
+			children = (
+				0A7AA7A5251D66A000607491 /* MyViewTwoModalViewController.swift */,
+				0A7AA7A9251D66CD00607491 /* MyViewTwoModal.storyboard */,
+			);
+			path = MyViewTwoModal;
+			sourceTree = "<group>";
+		};
+		0A7AA7A4251D663D00607491 /* MyViewTwoNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				0A7AA7AC251D671300607491 /* MyViewTwoNavigationViewController.swift */,
+				0A7AA7AF251D673D00607491 /* MyViewTwoNavigation.storyboard */,
+			);
+			path = MyViewTwoNavigation;
+			sourceTree = "<group>";
+		};
 		0AF707C9251AB49700C6BCB2 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +111,9 @@
 				0AF707EA251AB59500C6BCB2 /* MyViewOne */,
 				0AF707F9251AD45200C6BCB2 /* MyViewOneModal */,
 				0AF707FA251AD47900C6BCB2 /* MyViewOneNavigation */,
+				0A117640251D47E300B20F0B /* MyViewTwo */,
+				0A7AA7A3251D662B00607491 /* MyViewTwoModal */,
+				0A7AA7A4251D663D00607491 /* MyViewTwoNavigation */,
 				0AF707D5251AB49700C6BCB2 /* AppDelegate.swift */,
 				0AF707D7251AB49700C6BCB2 /* SceneDelegate.swift */,
 				0AF707DE251AB49B00C6BCB2 /* Assets.xcassets */,
@@ -174,12 +216,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7AA7AA251D66CD00607491 /* MyViewTwoModal.storyboard in Resources */,
 				0AF70806251AD5FC00C6BCB2 /* MyViewOneNavigation.storyboard in Resources */,
+				0A7AA7A1251D62EA00607491 /* MyViewTwo.storyboard in Resources */,
 				0AF70800251AD53000C6BCB2 /* MyViewOneModal.storyboard in Resources */,
 				0AF707E2251AB49B00C6BCB2 /* LaunchScreen.storyboard in Resources */,
 				0AF707DF251AB49B00C6BCB2 /* Assets.xcassets in Resources */,
 				0AF707F4251AB70D00C6BCB2 /* MyViewOne.storyboard in Resources */,
 				0AF707DD251AB49700C6BCB2 /* Main.storyboard in Resources */,
+				0A7AA7B0251D673D00607491 /* MyViewTwoNavigation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +237,11 @@
 			files = (
 				0AF707DA251AB49700C6BCB2 /* ViewController.swift in Sources */,
 				0AF707D6251AB49700C6BCB2 /* AppDelegate.swift in Sources */,
+				0A7AA7AD251D671300607491 /* MyViewTwoNavigationViewController.swift in Sources */,
 				0AF707FC251AD4F400C6BCB2 /* MyViewOneModalViewController.swift in Sources */,
 				0AF707EC251AB67100C6BCB2 /* MyViewOneViewController.swift in Sources */,
+				0A7AA7A6251D66A000607491 /* MyViewTwoModalViewController.swift in Sources */,
+				0A7AA79E251D62C200607491 /* MyViewTwoViewController.swift in Sources */,
 				0AF70803251AD5E100C6BCB2 /* MyViewOneNavigationViewController.swift in Sources */,
 				0AF707D8251AB49700C6BCB2 /* SceneDelegate.swift in Sources */,
 			);

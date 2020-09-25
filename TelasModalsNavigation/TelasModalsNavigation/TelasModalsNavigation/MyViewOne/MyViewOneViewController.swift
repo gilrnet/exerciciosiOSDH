@@ -23,7 +23,6 @@ class MyViewOneViewController: UIViewController {
             //Abre a tela Navigation
             navigationController?.pushViewController(viewControllerOneNavigation, animated: true)
         }
-        
     }
     
     override func viewDidLoad() {
@@ -33,5 +32,4 @@ class MyViewOneViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
 }
