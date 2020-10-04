@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Exercise2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W8n-5S-UiN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimalsTableViewCell" rowHeight="208" id="2Qh-A5-DfC" customClass="AnimalsTableViewCell" customModule="Exercise2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="208"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Qh-A5-DfC" id="8L9-ih-XIc">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="208"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5V1-7S-D6Q">
+                                                    <rect key="frame" x="20" y="11" width="45" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRs-sF-ofA">
+                                                    <rect key="frame" x="20" y="57.5" width="45.5" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Species" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYR-ay-ICr">
+                                                    <rect key="frame" x="20" y="150" width="255" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RV-uQ-Vi1">
+                                                    <rect key="frame" x="20" y="103" width="53.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="VYR-ay-ICr" firstAttribute="top" secondItem="1RV-uQ-Vi1" secondAttribute="bottom" constant="26" id="2lz-Ud-fsz"/>
+                                                <constraint firstItem="dRs-sF-ofA" firstAttribute="leading" secondItem="8L9-ih-XIc" secondAttribute="leadingMargin" id="63C-nK-RgJ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="VYR-ay-ICr" secondAttribute="trailing" constant="119" id="CDv-fa-I0W"/>
+                                                <constraint firstItem="VYR-ay-ICr" firstAttribute="leading" secondItem="8L9-ih-XIc" secondAttribute="leadingMargin" id="FJq-3G-oEg"/>
+                                                <constraint firstItem="1RV-uQ-Vi1" firstAttribute="leading" secondItem="8L9-ih-XIc" secondAttribute="leadingMargin" id="FmG-tQ-DBp"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="VYR-ay-ICr" secondAttribute="trailing" id="LBb-Ss-xAF"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="5V1-7S-D6Q" secondAttribute="trailing" id="M53-bX-4nd"/>
+                                                <constraint firstItem="5V1-7S-D6Q" firstAttribute="top" secondItem="8L9-ih-XIc" secondAttribute="topMargin" id="PdA-4H-Is2"/>
+                                                <constraint firstItem="1RV-uQ-Vi1" firstAttribute="top" secondItem="dRs-sF-ofA" secondAttribute="bottom" constant="26" id="SLg-m8-4RA"/>
+                                                <constraint firstItem="dRs-sF-ofA" firstAttribute="top" secondItem="5V1-7S-D6Q" secondAttribute="bottom" constant="26" id="Zwa-6F-pK2"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="VYR-ay-ICr" secondAttribute="bottom" constant="26" id="cZf-1K-Iw0"/>
+                                                <constraint firstItem="5V1-7S-D6Q" firstAttribute="leading" secondItem="8L9-ih-XIc" secondAttribute="leadingMargin" id="dm1-4r-PUD"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="1RV-uQ-Vi1" secondAttribute="trailing" id="kdA-3l-wKv"/>
+                                                <constraint firstItem="VYR-ay-ICr" firstAttribute="top" secondItem="1RV-uQ-Vi1" secondAttribute="bottom" constant="26" id="u3P-14-etd"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="dRs-sF-ofA" secondAttribute="trailing" id="vbG-Lz-s8C"/>
+                                                <constraint firstItem="VYR-ay-ICr" firstAttribute="leading" secondItem="8L9-ih-XIc" secondAttribute="leadingMargin" id="ywt-5e-NdY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="labelBreed" destination="dRs-sF-ofA" id="H3s-tY-wdI"/>
+                                            <outlet property="labelName" destination="5V1-7S-D6Q" id="9h4-1P-ihJ"/>
+                                            <outlet property="labelSpecies" destination="VYR-ay-ICr" id="P0i-Fo-sAU"/>
+                                            <outlet property="labelWeight" destination="1RV-uQ-Vi1" id="JdV-yL-mN1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W8n-5S-UiN" secondAttribute="bottom" id="GaQ-tr-sRR"/>
+                            <constraint firstItem="W8n-5S-UiN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q17-Ak-1gh"/>
+                            <constraint firstItem="W8n-5S-UiN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TNc-h5-DVX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W8n-5S-UiN" secondAttribute="trailing" id="yye-4Y-kP3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewAnimals" destination="W8n-5S-UiN" id="R38-qE-rN4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="90.401785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
